@@ -1,0 +1,10 @@
+anndata
+scanpy
+numpy
+pandas
+matplotlib
+scipy
+scikit-learn
+pooch
+jupyter
+ipykernel
