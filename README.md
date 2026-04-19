@@ -103,6 +103,30 @@ The tutorial uses a **PBMC single-cell RNA-seq dataset**, commonly used for:
 - Dimensionality reduction workflows  
 
 ---
+## Results  
+
+The following results were obtained from the analysis of the AnnData object:
+
+- Successfully loaded and explored the structure of the AnnData object, including `.X`, `obs`, `var`, and `uns`  
+- Verified that the dataset is organized as a **cells × genes matrix**  
+- Explored cell-level and gene-level metadata using `obs` and `var`  
+
+- Demonstrated flexible data subsetting:
+  - By indices  
+  - By labels  
+  - By boolean conditions  
+
+- Observed the behavior of **views vs copies**, where modifying a view can trigger conversion into a full copy  
+
+- Stored and accessed multiple data representations using **layers** (e.g., raw counts and normalized data)  
+
+- Visualized gene expression patterns using:
+  - **Matrix plots** (CPM vs raw counts)  
+  - **Dimensionality reduction embeddings (PCA, t-SNE, UMAP)**  
+
+- Identified clustering patterns in cells using embedding visualizations  
+
+- Analyzed **cell–cell relationships** using distance matrices, observing clearer structure after sorting by cell type  
 
 ##  Tools & Libraries Used
 
