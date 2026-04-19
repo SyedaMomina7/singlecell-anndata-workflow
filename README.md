@@ -113,3 +113,13 @@ The tutorial uses a **PBMC single-cell RNA-seq dataset**, commonly used for:
 - `pandas`  
 - `matplotlib`  
 - `pooch`  
+
+---
+
+## Installation  
+
+```bash
+pip install -r requirements.txt
+```
+## Author  
+**Momina Assad**
